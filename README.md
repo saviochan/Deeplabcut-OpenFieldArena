@@ -9,7 +9,7 @@ A Deeplabcut network trained to label mice in open field arena with topdown view
 The network was initialized using the pretrained network mobilenet_v2_1.0. Training dataset was augmented with the imgaug method. The network was continously trained with manually annotated videos until satisfactory results were obtained. In total, ~ 4k frames were labelled and ~3000000 iterations were performed. 
 
 ### Network performance 
-The network was evaluated to have a 1.13 train error and 4.82 test error, using a scale factor(train-test ratio) of 0.8. We have a short 2-min video demonstrating the accuracy of our tracking: [demo](videos/demo)
+The network was evaluated to have a 1.13px train error and 4.82px test error, using a scale factor(train-test ratio) of 0.8. We have a short 2-min video demonstrating the accuracy of our tracking: [demo](videos/demo)
 
 We alsocompared the labelling performance with a commercial video tracking software called Ethovision. As shown in speed plot below, our DLC model has comparable performance with commerical options.
 
