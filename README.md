@@ -1,8 +1,13 @@
 # Deeplabcut-OpenFieldArena
 A Deeplabcut network trained to label mice in open field arena with topdown view
 
-![Example](https://user-images.githubusercontent.com/17475995/87314041-54a86400-c4e8-11ea-976c-2ea60df8de35.jpg)
+<p align="center">
+  <img width="500" height="500" src="https://user-images.githubusercontent.com/17475995/87314041-54a86400-c4e8-11ea-976c-2ea60df8de35.jpg">
+</p>
+
 **Network last updated: 12th July, 2020**
+
+## Labelling configuration
 
 ## Network configuration
 
