@@ -45,8 +45,12 @@ We used a free editor software called VSDC Free Video Editor:http://www.videosof
 >**Note**: Changing the frame rate and resolution hinders the performance of the network.
 
 ### Step 2: Download the network
-1. Download the 3 network files [here](/demo)
+1. Download the folder here [here](/downloads)
 2. Create a new project in DLC
-3. Place the 3 network files in the dlc-models folder
+3. Place the downloaded folder in the `dlc-model` folder in your project
+4. Go to the subfolder `dlc-model/iteration-0/YourprojectnameDatecreated-trainset95shuffle1.`. Rename the subfolder by replacing the text `Yourprojectname` with your project name and `Date created` with the date created
+- eg. OpenFieldTestJul13-trainset95shuffle1
+5. You are good to go! Click the `analyze video` tab in the DLC GUI. If you are using our network, you should see `Using snapshot-950000 for model .........../dlc-models/iteration-0/........-trainset95shuffle1` pop up in the command prompt.
+
 
 
