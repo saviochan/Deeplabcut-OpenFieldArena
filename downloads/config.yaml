@@ -1,0 +1,164 @@
+    # Project definitions (do not edit)
+Task: OFT_Master
+scorer: Isaac
+date: May5
+multianimalproject:
+
+    # Project path (change when moving around)
+project_path: /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN_term_ChR2+Npas1_tetlc_trial_267_13-14.avi
+  : crop: 0, 1080, 0, 1080
+  ? /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN_term_ChR2+Npas1_tetlc_trial_74_23-24.avi
+  : crop: 0, 1080, 0, 1080
+  ? /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN_term_ChR2+Npas1_tetlc_trial_74.avi
+  : crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN_term_ChR2_trial_70.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN_soma_ctrl_trial_500_21-22.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DMS_iSPN_soma_ChR2_trial_52_16-17.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN_soma_ChR2_trial_148.avi:
+    crop: 0, 1080, 0, 1080
+  ? /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DMS_dSPN-medial_SNr_Ctrl_trial_518_23-24.avi
+  : crop: 0, 1080, 0, 1080
+  ? /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DMS_dSPN-medial_SNr_ChR2_trial_517_12-13.avi
+  : crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DMS_dSPN_soma_ChR2_trial_207.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DMS_dSPN_term_ChR2_trial_199.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_iSPN_term_control_trial_510_16-17.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DMS_dSPN_soma_ChR2_trial_5.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_iSPN_term_ChR2_trial_574_23-24.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_iSPN_term_control_trial_507_9-10.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_iSPN_term_ChR2_trial_567_8-9b.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_iSPN_soma_control_trial_377_14-15.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_iSPN_soma_ChR2_trial_228_20-21.avi:
+    crop: 0, 1080, 0, 1080
+  ? /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN-lateral_SNr_ChR2_trial_646_7-8.avi
+  : crop: 0, 1080, 0, 1080
+  ? /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN_term_ChR2+PV_tetlc_trial_442_10-11.avi
+  : crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN_term_ctrl_trial_324.avi:
+    crop: 0, 1080, 0, 1080
+  ? /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN_term_ChR2+Npas1_tetlc_trial_319_22-23.avi
+  : crop: 0, 1080, 0, 1080
+  ? /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/DLS_dSPN_term_ChR2+Npas1_tetlc_trial_319.avi
+  : crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_608.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_441.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_403.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_439.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_391.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_375.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_365.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_312.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_291.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_235.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_233.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_226.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_204.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_173.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/videos/Arin_Trial_2.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/SimBA_Videos/Arin_Trial_439.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/Test_Videos/2min_1X_15fps/DLS_iSPN_soma_ChR2_trial_229_19-20.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/Test_Videos/2min_1X_15fps/DMS_dSPN-medial_SNr_Ctrl trial_558_18-19b.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/Test_Videos/2min_1X_15fps/DLS_iSPN_soma_ChR2_trial_529_19-20.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/Test_Videos/2min_1X_15fps/DLS_iSPN_soma_control_trial_316_20-21.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/Test_Videos/2min_1X_15fps/DMS_dSPN-medial_SNr_ChR2_trial_709_22-23.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/Test_Videos/25min_1X_15fps/DLS_dSPN soma_ChR2 trial_148.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/New_videos/DLS_dSPN_term_ctrl_trial_413.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/New_videos/DLS_dSPN_term_ChR2+PV_tetlc_trial_442.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/New_videos/DLS_dSPN_soma_ctrl_trial_414.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/New_videos/DLS_dSPN_soma_ChR2_trial_486.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/New_videos/DMS_dSPN_soma_ctrl_trial_450.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/New_videos/DMS_dSPN_soma_ctrl_trial_452.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/New_videos/DLS_dSPN_soma_ctrl_trial_500.avi:
+    crop: 0, 1080, 0, 1080
+  /projects/p31133/Deeplabcut/Deeplabcut_Master/Validation_Videos/Arin_Trial_217.avi:
+    crop: 0, 1080, 0, 1080
+bodyparts:
+- Ear_left
+- Ear_right
+- Nose
+- Center
+- Lateral_left
+- Lateral_right
+- Tail_base
+- Tail_end
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton: [[Nose, Ear_left], [Nose, Ear_right], [Nose, Center], [Center, Tail_base],
+  [Ear_left, Ear_right], [Ear_left, Lateral_left], [Ear_right, Lateral_right], [Lateral_left,
+    Tail_base], [Lateral_right, Tail_base]]
+skeleton_color: white
+pcutoff: 0.4
+dotsize: 4
+alphavalue: 0.7
+colormap: jet
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 5
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining:
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+resnet:
