@@ -1,12 +1,10 @@
 # Deeplabcut-OpenFieldArena
-A Deeplabcut network trained to label mice in open field arena with topdown view
+A Deeplabcut network trained to label mice in open field arena with topdown view.
 
 <p align="center">
   <img width="500" height="500" src="https://user-images.githubusercontent.com/17475995/87319236-f7fc7780-c4ee-11ea-9ecb-1e373cfc64b4.jpg">
 </p>
 
-
-**Network last updated: 12th July, 2020**
 ### Network configuration
 The network was initialized using the pretrained network mobilenet_v2_1.0. Training dataset was augmented with the imgaug method. The network was continously trained with manually annotated videos until satisfactory results were obtained. In total, around 4k frames were labelled and ~9000000 iterations were performed. 
 
@@ -47,7 +45,10 @@ We used a free editor software called VSDC Free Video Editor:http://www.videosof
 >**Note**: Changing the frame rate and resolution hinders the performance of the network.
 
 ### Step 2: Download the network
-1. Download the config.yaml file and the three network files[here](/demo)
+1. Download the config.yaml file and the 3 network files[here](/demo)
 2. Change the `project path` in the config file to the project path on your machine
-3. You are good to go! 
+3. Create a new project in DLC
+4. Replace the existing config.yaml with the downloaded config.yaml
+5. Place the 3 network files in the dlc-models folder
+6. You are good-to-go!
 
