@@ -45,10 +45,8 @@ We used a free editor software called VSDC Free Video Editor:http://www.videosof
 >**Note**: Changing the frame rate and resolution hinders the performance of the network.
 
 ### Step 2: Download the network
-1. Download the config.yaml file and the 3 network files[here](/demo)
-2. Change the `project path` in the config file to the project path on your machine
-3. Create a new project in DLC
-4. Replace the existing config.yaml with the downloaded config.yaml
-5. Place the 3 network files in the dlc-models folder
-6. You are good-to-go!
+1. Download the 3 network files[here](/demo)
+2. Create a new project in DLC
+3. Place the 3 network files in the dlc-models folder
+
 
