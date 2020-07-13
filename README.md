@@ -6,7 +6,7 @@ A Deeplabcut network trained to label mice in open field arena with topdown view
 </p>
 
 ### Network configuration
-The network was initialized using the pretrained network mobilenet_v2_1.0. Training dataset was augmented with the imgaug method. The network was continously trained with manually annotated videos until satisfactory results were obtained. In total, around 4k frames were labelled and ~9000000 iterations were performed. 
+The network was initialized using the pretrained network mobilenet_v2_1.0. Training dataset was augmented with the imgaug method. The network was continously trained with manually annotated videos until satisfactory results were obtained. In total, around 4k frames were labelled and ~3000000 iterations were performed. 
 
 ### Network performance 
 The network was evaluated to have a 1.13 train error and 4.82 test error, using a scale factor(train-test ratio) of 0.8. We have a short 2-min video demonstrating the accuracy of our tracking: [demo](videos/demo)
@@ -45,7 +45,7 @@ We used a free editor software called VSDC Free Video Editor:http://www.videosof
 >**Note**: Changing the frame rate and resolution hinders the performance of the network.
 
 ### Step 2: Download the network
-1. Download the 3 network files[here](/demo)
+1. Download the 3 network files [here](/demo)
 2. Create a new project in DLC
 3. Place the 3 network files in the dlc-models folder
 
