@@ -1,0 +1,53 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+- - 7
+all_joints_names:
+- Ear_left
+- Ear_right
+- Nose
+- Center
+- Lateral_left
+- Lateral_right
+- Tail_base
+- Tail_end
+batch_size: 1
+bottomheight: 400
+crop: true
+cropratio: 0.4
+dataset: training-datasets/iteration-0/UnaugmentedDataSet_OFT_MasterMay5/OFT_Master_Isaac95shuffle1.mat
+dataset_type: default
+display_iters: 1000
+global_scale: 0.8
+init_weights: /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05/dlc-models/iteration-0/OFT_MasterMay5-trainset95shuffle1/train/snapshot-50000
+intermediate_supervision: false
+intermediate_supervision_layer: 12
+leftwidth: 400
+location_refinement: true
+locref_huber_loss: true
+locref_loss_weight: 0.05
+locref_stdev: 7.2801
+max_input_size: 1500
+metadataset: training-datasets/iteration-0/UnaugmentedDataSet_OFT_MasterMay5/Documentation_data-OFT_Master_95shuffle1.pickle
+min_input_size: 64
+minsize: 100
+mirror: false
+multi_step:
+- - 0.002
+  - 10000
+- - 0.002
+  - 430000
+net_type: mobilenet_v2_1.0
+num_joints: 8
+pos_dist_thresh: 17
+project_path: /projects/p31133/Deeplabcut/Deeplabcut_Master/OFT_Master-Isaac-2020-05-05
+rightwidth: 400
+save_iters: 50000
+scale_jitter_lo: 0.5
+scale_jitter_up: 1.25
+topheight: 400
