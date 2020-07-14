@@ -9,7 +9,7 @@ A Deeplabcut network trained to label mice in open field arena with topdown view
 The network was initialized using the pretrained network mobilenet_v2_1.0. Training dataset was augmented with the imgaug method. The network was continously trained with manually annotated videos until satisfactory results were obtained. In total, ~ 4k frames were labelled and ~3000000 iterations were performed. 
 
 ### Network performance 
-The network was evaluated to have a 1.13px train error and 4.82px test error, using a scale factor(train-test ratio) of 0.8. We have a short 2-min video demonstrating the accuracy of our tracking: [demo](videos/demo)
+The network was evaluated to have a 1.13px train error and 4.82px test error, using a scale factor(train-test ratio) of 0.8. We have a short 2-min video demonstrating the accuracy of our tracking: [demo](videos)
 
 We also compared the labelling performance with a commercial video tracking software called Ethovision. As shown in speed plot below, our DLC model has comparable performance with commerical options.
 
@@ -45,7 +45,7 @@ We used a free editor software called VSDC Free Video Editor:http://www.videosof
 >**Note**: Changing the frame rate and resolution hinders the performance of the network.
 
 ### Step 2: Download the network
-1. Download the folder here [here](/downloads)
+1. Download the folder [here](/downloads)
 2. Create a new project in DLC
 3. Place the downloaded folder in the `dlc-model` folder in your project
 4. Go to the subfolder `dlc-model/iteration-0/YourprojectnameDatecreated-trainset95shuffle1.`. Rename the subfolder by replacing the text `Yourprojectname` with your project name and `Date created` with the date created
